@@ -3,7 +3,7 @@
 This project analyzes a server log file to detect potential DDoS attack times using Python. The script processes the log, identifies request spikes, and visualizes the results. / ეს პროექტი აანალიზებს სერვერის ლოგ ფაილს DDoS შეტევის დროის გამოსავლენად Python-ის გამოყენებით. სკრიპტი ამუშავებს ლოგს, გამოავლენს მოთხოვნების მკვეთრ ზრდას და ვიზუალიზაციას ახდენს შედეგების.
 
 ## Log File / ლოგ ფაილი
-- **Link to Log File / ლოგ ფაილის ბმული**: [luka_babunadze_1_server.log](https://github.com/yourusername/yourrepository/blob/main/luka_babunadze_1_server.log)
+- **Link to Log File / ლოგ ფაილის ბმული**: [luka_babunadze_1_server.log](https://github.com/LukaBabunadze/ml-25-ddos-detection/blob/main/luka_babunadze_1_server.log)
 - **DDoS Attack Time / DDoS შეტევის დრო**: Max requests: 2268 at 2024-03-22 18:08:30+04:00
 
 ## Visualization / ვიზუალიზაცია
@@ -14,14 +14,14 @@ This plot shows requests per 10-second intervals, rolling mean, threshold, and d
 
 ## How to Run the Code / კოდის გაშვების ინსტრუქცია
 ### English
-1. Clone the repository: `git clone https://github.com/yourusername/yourrepository.git`
+1. Clone the repository: `git clone https://github.com/LukaBabunadze/ml-25-ddos-detection`
 2. Install dependencies: `pip install pandas matplotlib scikit-learn`
 3. Save the log file as `luka_babunadze_1_server.log` in the repository folder.
 4. Run the script: `python ddos_detection.py`
 5. Check the output for detected DDoS times and view the generated plots (`ddos_detection_plot.png` and `regression_analysis_plot.png`).
 
 ### ქართული
-1. გადმოწერეთ რეპოზიტორია: `git clone https://github.com/yourusername/yourrepository.git`
+1. გადმოწერეთ რეპოზიტორია: `git clone https://github.com/LukaBabunadze/ml-25-ddos-detection`
 2. დააინსტალირეთ დამოკიდებულებები: `pip install pandas matplotlib scikit-learn`
 3. შეინახეთ ლოგ ფაილი სახელით `luka_babunadze_1_server.log` რეპოზიტორიის საქაღალდეში.
 4. გაუშვით სკრიპტი: `python ddos_detection.py`
@@ -87,10 +87,3 @@ plt.savefig('ddos_detection_plot.png')
 
 ## Results / შედეგები
 - **Detected DDoS Time / გამოვლენილი DDoS დრო**: Max requests: 2268 at 2024-03-22 18:08:30+04:00, as shown in the plot and output. / მაქსიმალური მოთხოვნები: 2268 2024-03-22 18:08:30+04:00-ზე, როგორც ნაჩვენებია გრაფიკზე და გამომავალში.
-
----
-
-### Notes
-- **Repository URL**: Replace `yourusername/yourrepository` with your actual GitHub repo URL.
-- **Log File**: Ensure `luka_babunadze_1_server.log` is uploaded to your repo and linked correctly.
-- **Explanations**: Bilingual (English/Georgian) to support broader audiences.
