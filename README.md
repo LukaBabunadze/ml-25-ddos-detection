@@ -14,14 +14,14 @@ This plot shows requests per 10-second intervals, rolling mean, threshold, and d
 
 ## How to Run the Code / კოდის გაშვების ინსტრუქცია
 ### English
-1. Clone the repository: `git clone [https://github.com/LukaBabunadze/ml-25-ddos-detection](https://github.com/LukaBabunadze/ml-25-ddos-detection.git)`
+1. Clone the repository: `git clone https://github.com/LukaBabunadze/ml-25-ddos-detection.git`
 2. Install dependencies: `pip install pandas matplotlib scikit-learn`
 3. Save the log file as `luka_babunadze_1_server.log` in the repository folder.
 4. Run the script: `python ddos_detection.py`
 5. Check the output for detected DDoS times and view the generated plots (`ddos_detection_plot.png` and `regression_analysis_plot.png`).
 
 ### ქართული
-1. გადმოწერეთ რეპოზიტორია: `git clone [https://github.com/LukaBabunadze/ml-25-ddos-detection](https://github.com/LukaBabunadze/ml-25-ddos-detection.git)`
+1. გადმოწერეთ რეპოზიტორია: `git clone https://github.com/LukaBabunadze/ml-25-ddos-detection.git`
 2. დააინსტალირეთ დამოკიდებულებები: `pip install pandas matplotlib scikit-learn`
 3. შეინახეთ ლოგ ფაილი სახელით `luka_babunadze_1_server.log` რეპოზიტორიის საქაღალდეში.
 4. გაუშვით სკრიპტი: `python ddos_detection.py`
