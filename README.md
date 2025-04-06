@@ -37,3 +37,7 @@ def parse_log_line(line):
         timestamp_str = match.group(1)
         timestamp = datetime.strptime(timestamp_str, '%Y-%m-%d %H:%M:%S%z')
         return timestamp
+
+Explanation / ახსნა: Uses regex (r'\[(.*?)\]') to extract timestamps (e.g., 2024-03-22 18:08:30+04:00) from log lines and converts them to datetime objects with timezone support. / იყენებს regex-ს დროის ამოსაღებად ლოგის ხაზებიდან და გარდაქმნის datetime ობიექტად დროის ზონის მხარდაჭერით.
+
+###2. Grouping and Counting Requests / მოთხოვნების დაჯგუფება
