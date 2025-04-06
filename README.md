@@ -22,7 +22,7 @@ This plot shows requests per 10-second intervals, rolling mean, threshold, and d
 
 ### ქართული
 1. გადმოწერეთ რეპოზიტორია: `git clone https://github.com/LukaBabunadze/ml-25-ddos-detection.git`
-2. დააინსტალირეთ დამოკიდებულებები: `pip install pandas matplotlib scikit-learn`
+2. დააინსტალირეთ: `pip install pandas matplotlib scikit-learn`
 3. შეინახეთ ლოგ ფაილი სახელით `luka_babunadze_1_server.log` რეპოზიტორიის საქაღალდეში.
 4. გაუშვით სკრიპტი: `python ddos_detection.py`
 5. შეამოწმეთ გამომავალი DDoS დროებისთვის და ნახეთ გენერირებული გრაფიკები (`ddos_detection_plot.png` და `regression_analysis_plot.png`).
@@ -86,4 +86,4 @@ plt.savefig('ddos_detection_plot.png')
 - **Matplotlib / Matplotlib-ის გამოყენება**: Plots request counts, mean, threshold, and anomalies on a time-series graph for clear visualization. Custom styling (colors, labels) enhances readability. / ხაზავს მოთხოვნების რაოდენობას, საშუალოს, ზღვარს და ანომალიებს დროის სერიების გრაფიკზე ნათელი ვიზუალიზაციისთვის.
 
 ## Results / შედეგები
-- **Detected DDoS Time / გამოვლენილი DDoS დრო**: Max requests: 2268 at 2024-03-22 18:08:30+04:00, as shown in the plot and output. / მაქსიმალური მოთხოვნები: 2268 2024-03-22 18:08:30+04:00-ზე, როგორც ნაჩვენებია გრაფიკზე და გამომავალში.
+- **Detected DDoS Time / გამოვლენილი DDoS დრო**: Max requests: 2268 at 2024-03-22 18:08:30+04:00, as shown in the plot and output. / მაქსიმალური მოთხოვნები: 2268 2024-03-22 18:08:30+04:00-ზე, როგორც ნაჩვენებია გრაფიკზე და კონსოლში.
